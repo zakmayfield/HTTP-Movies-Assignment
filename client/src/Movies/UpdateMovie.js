@@ -42,8 +42,6 @@ const UpdateMovie = props => {
       ...movie,
       [e.target.name]: e.target.value
     })
-
-    console.log(e.target.name, '=', e.target.value);
   }
 
   return (
